@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostal Ñuble</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- logo del title exterior -->
+    <link rel="shortcut icon" href="./images/logo_exterior.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <meta name="Proyecto desarrollado por LIA, Santo Tomas para el Hostal Ñuble Alto" content="">
+
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <!--<div class="logo">
+                <img src="images/LogoHostal.png" alt="">
+            </div>-->
+
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#img" class="nav__links">Imágenes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#act" class="nav__links">Actividades</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#con" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <!--<h5 class="hero__paragraph">Hostal Ñuble</h5> -->
+            <img src="images/LogoHostal.png" alt="" class="banner">
+        </section>
+    </header>
+
+    <main>
+        <section class="container about" id="info">
+            <h1 class="subtitle">Bienvenido al Hostal Ñuble Alto de Chillán</h1>
+            <p class="about__paragraph">¿Buscas un lugar para hospedarte?<br></br> En Hostal Ñuble Alto queremos brindarte el mejor ambiente, ya sea para viajes de trabajo, negocios, vacaciones con familia o amigos. Un ambiente acogedor para que te sientas como en casa.<br></br>
+            </p>
+        </section>
+
+        <h2 class="s2 mb-5" id="img">GALERÍA</h2>
+        <ul class="galeria">
+            <img class="zoom" src="images/Dormitorios/D9.jpeg" alt="">
+            <img class="zoom" src="images/Dormitorios/D11.jpeg" alt="">
+            <img class="zoom" src="images/Dormitorios/D15.jpeg" alt="">
+            <img class="zoom" src="images/Dormitorios/D16.jpeg" alt="">
+        </ul>
+        <ul class="galeria">
+            <img class="zoom" src="images/Dormitorios/D4.jpg" alt="">
+            <img class="zoom" src="images/Dormitorios/D5.jpg" alt="">
+            <img class="zoom" src="images/Dormitorios/D17.jpeg" alt="">
+            <img class="zoom" src="images/Dormitorios/D20.jpeg" alt="">
+            <!--  <video autoplay muted loop src="./images/Dormitorios/Hostal.mp4" width="640px" height="640px"> </video> -->
+        </ul>
+        <!--<a <button target="_blank" href="https://goo.gl/maps/uH1cATKXfLFbcx3H6" class="button_2"
+        style="vertical-align:middle"><span>video del hostal</span></button></a>-->
+
+        <section class="container about" id="info">
+            <p class="about__paragraph">NUESTROS SERVICIOS:</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="images/Servicios/Wifi.png" class="about__icon">
+                    <h3 class="about__title">Wifi</h3>
+                    <p class="about__paragraph">Contamos con internet totalmente gratuito para todas las personas que residan en el hostal.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="images/Servicios/TV.png" class="about__icon">
+                    <h3 class="about__title">TV Cable</h3>
+                    <p class="about__paragraph">Todos los dormitorios cuentan con TV Cable, para una mejor comodidad y entretención de los clientes.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="images/Servicios/Comedor.png" class="about__icon">
+                    <h3 class="about__title">Cocina</h3>
+                    <p class="about__paragraph">Nuestra cocina cuenta con Comedor, Microondas, Frigobar y servicios como desayuno, almuerzo y once.</p>
+                </article>
+            </div>
+        </section>
+        <br></br>
+        <h2 class="s3 mb-5">LUGARES TURÍSTICOS CERCA DEL HOSTAL</h2>
+        <section class="testimony" id="act">
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+
+                    <div class="testimony__texts">
+                        <h2 class="subtitle"> <span class="testimony__course">Catedral de Chillán</span></h2>
+                        <p class="testimony__review">La Catedral de Chillán es un templo de la iglesia católica, sede de la Diócesis de Chillán ubicada en el centro de la ciudad de Chillán frente a la Plaza de Armas, en la esquina de calles Arauco y Libertad. Es también símbolo e
+                            ícono de la ciudad, esto a raíz del progreso que ha tenido la ciudad tras el terremoto de Chillán de 1939. Fue declarada Monumento Nacional en diciembre de 2014</p>
+                        <a button target="_blank" href="https://goo.gl/maps/SfEFfYSX8wn77aSS6" class="button" style="vertical-align:middle"><span>Ubicación</span></button></a>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="images/Turismo/C1.jpg" class="testimony__img">
+
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle"><span class="testimony__course">Feria Artesanal de Chillán</span></h2>
+                        <p class="testimony__review">La Feria Artesanal de Chillán o Feria de la Plaza Sargento Aldea es un recinto que está ubicada en el centro de la ciudad de Chillán, en Chile. En este sector se venden diversos tipos de artesanía como cestería, mimbre, mantas,
+                            monturas, canastas, collares, y otras cosas, todas originarias de localidades cercanas de la ciudad como Quinchamalí, Coihueco, Minas del Prado, Pinto y diversas otras de la Provincia de Ñuble, La Feria está ubicada entre las
+                            calles Maipón, 5 de Abril, Isabel Riquelme y Arturo Prat. Abarca una manzana completa y el edificio contiene diversos locales que se relacionan con la gastronomía chilena y la artesanía.</p>
+                        <a button target="_blank" href="https://goo.gl/maps/S9BqNRBD2raMsWCX8" class="button" style="vertical-align:middle"><span>Ubicación</span></button></a>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/Turismo/F1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle"><span class="testimony__course">El Parque Monumental</span></h2>
+                        <p class="testimony__review">El Parque Monumental Bernardo O'Higgins es un recinto ubicado en la comuna de Chillán Viejo de la ciudad de Chillán, Chile. El parque debe su nombre a Bernardo O'Higgins, dado a que en dicho sitio se ubicó la casona donde nació
+                            y se crio y que fue demolida en 1930. El lugar alberga un centro cultural, un mausoleo con los restos de Isabel Riquelme y Rosita O'Higgins, madre y hermana del militar chileno,​ además de un mural que representa su vida, hecho
+                            por María Martner, declarado monumento nacional y el entorno de este mural fue declarado Zona Típica.</p>
+                        <a button target="_blank" href="https://goo.gl/maps/2hNdrSMwTFfEBuPR9" class="button" style="vertical-align:middle"><span>Ubicación</span></button></a>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/Turismo/M1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle"><span class="testimony__course">Termas de Chillán</span></h2>
+                        <p class="testimony__review">Termas de Chillán es una localidad y complejo turístico ubicado en la comuna de Pinto, en la Región del Biobío, Chile, a 82 km al oriente de la ciudad de Chillán. Incluye un complejo termal, un centro de esquí, hoteles y un casino.
+                            Desde la antigüedad, los indígenas conocían las facultades curativas de estas termas y en 1954 el Ministerio de Salud de Chile las declaró "fuentes curativas". El centro termal tiene nueve piscinas de azufre y hierro, con aguas
+                            a una temperatura promedio de 60 °C. Las aguas son sulfaltadas y contienen hierro, azufre, manganeso, magnesio y potasio, entre otros minerales. Además son de mediana mineralización. El pasaje cercano a las Termas se encuentra
+                            adornado por bosque nativo que tiene las especies de Lenga, Lleuque, Ñirre y Coihue.</p>
+                        <a button target="_blank" href="https://goo.gl/maps/uH1cATKXfLFbcx3H6" class="button" style="vertical-align:middle"><span>Ubicación</span></button></a>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="images/Turismo/T1.jpg" class="testimony__img">
+                    </figure>
+                </section>
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="s2">NUESTRA UBICACIÓN</h2>
+            <br></br>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200.19164886711965!2d-72.09871758283846!3d-36.60071024632804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73bd55eb0e9bd758!2zMzbCsDM2JzAyLjIiUyA3MsKwMDUnNTUuMCJX!5e0!3m2!1ses-419!2scl!4v1671069795141!5m2!1ses-419!2scl"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br></br>
+            <a button target="_blank" href="https://goo.gl/maps/6L1cmVNgq3m2J9fG9" class="button" style="vertical-align:middle"><span>Google Maps</span></button></a>
+            <p class="questions__copy"></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container-card">
+            <div class="card">
+                <figure>
+                    <img src="images/HÑ.jpeg">
+                </figure>
+                <div class="contenido-card">
+                    <h2 class="hero__title  ">CONTÁCTENOS</h2>
+                    <p class="T">Teléfono / WhatsApp: +56 9 8484 3469</p>
+                    <p class="T">Email: hostalñublealto@gmail.com</p>
+                    <p class="T">5 de abril #6, Chillán</p>
+                    <a href="https://api.whatsapp.com/send?phone=56984843469" target="_blank">Ir a WhatsApp</a>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="footer__copy container" id="con">
+            <div class="marca-logo">
+                <hr class="hr">
+                </hr>
+                <img src="images/LIA_F.png" alt="">
+                <br></br>
+            </div>
+            <div class="iconos">
+            </div>
+            <h2 class="footer__copyright">Sitio Web desarrollado por LIA &copy; Laboratorio Innovación Aplicada, Santo Tomás
+            </h2>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
